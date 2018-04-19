@@ -1,0 +1,144 @@
+/* Overwrite defaults */
+
+p,
+* {
+    font-family: 'Merriweather', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cubano Sharp";
+}
+
+/* Hero */
+
+.middle-content-section h1 {
+    font-size: 3.5em;
+}
+
+.hero-subtitle {
+    font-size: 1.9em;
+    margin-top: -0.6em;
+    font-family: "Cubano Sharp";
+
+}
+
+.hero-date {
+    font-size: 1.4em;
+    margin-top: 1.4em;
+}
+
+.hero-location {
+    font-size: 1.4em;
+}
+
+.hero-logo {
+    width: 40%;
+    height: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+
+.hero-button {
+    background-color: transparent;
+    border: 0.25em solid #7e1630;
+    background-color: #7e1630;
+    margin-top: 1.8em;
+}
+
+.hero-button:hover,
+.hero-button:active,
+.hero-button:focus {
+    color: #181e46;
+    background-color: white;
+}
+
+.hero-full-screen {
+    min-height: 100vh;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #ebd4a8 center center no-repeat;
+    background-size: cover;
+}
+
+.hero-full-screen .middle-content-section {
+    text-align: center;
+    color: #7e1630;
+}
+
+.hero-full-screen .top-content-section {
+    width: 100%;
+}
+
+.hero-full-screen .bottom-content-section {
+    padding: 1rem;
+}
+
+.hero-full-screen .bottom-content-section svg {
+    height: 3.75rem;
+    width: 3.75rem;
+    fill: #fefefe;
+}
+
+/* Top Bar */
+
+.top-bar,
+.top-bar .top-bar-left,
+.top-bar .top-bar-left .menu {
+    background-color: #7e1630;
+}
+
+.top-bar .menu-text {
+    color: #fefefe;
+}
+
+.top-bar .menu li {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.top-bar .menu a {
+    color: #fefefe;
+    font-weight: bold;
+}
+
+.top-bar img {
+    height: 5em;
+    margin-bottom: -1.9em;
+    margin-top: -1.2em;
+}
+
+/* Footer */
+
+.bottom-footer {
+    background-color: #320000;
+    text-align: center;
+    color: #ececec;
+    font-size: 0.6em;
+    padding: 1.2em 0.6em;
+    font-weight: 300;
+}
+
+.bottom-footer a {
+    color: #ead3a8;
+}
