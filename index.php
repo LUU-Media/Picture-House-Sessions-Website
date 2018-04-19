@@ -32,6 +32,11 @@
                         <li><a href="./schedule">Buy</a></li>
                     </ul>
                 </div>
+                <div class="top-bar-right">
+                    <ul class="menu">
+                        <li><a href="./schedule">Buy the EP</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -44,13 +49,28 @@
             <a class="button large hero-button" href="http://cpwm.awesomedistro.com/products/611162-leeds-student-radio-come-play-with-me-presents-picture-house-sessions">Preorder</a>
 
         </div>
-
         <div class="bottom-content-section" data-magellan data-threshold="0">
 
         </div>
-
     </div>
 
+    <div class="footer">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x footer-credits-grid">
+                <div class="cell small-12">
+                    <span class="footer-credits">Produced by</span>
+                    <div class="grid-x grid-margin-x">
+                        <div class="auto cell"></div>
+                        <div class="cell small-3 medium-1"><a href="http://thisislsr.com"><img src="http://www.thisislsr.com/logo.png" class="footer-logo" alt="Leeds Student Radio" /></a></div>
+                        <div class="cell small-3 medium-1"><a href="http://thisislsr.com"><img src="http://via.placeholder.com/100x100" class="footer-logo" alt="Hyde Park Picture House" /></a></div>
+                        <div class="cell small-3 medium-1"><a href="http://thisislsr.com"><img src="http://via.placeholder.com/100x100" class="footer-logo" alt="Come Play With Me" /></a></div>
+                        <div class="cell small-3 medium-1"><a href="http://thisislsr.com"><img src="http://via.placeholder.com/100x100" class="footer-logo" alt="LSR Sound Sessions" /></a></div>
+                        <div class="auto cell"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="bottom-footer">
         <div class="bottom-footer-copyright">&copy; Picture House Sessions 2018<br />Website made with <span style="color:#ff005a">❤</span> by <a href="http://jackbiggin.me">Jack Biggin</a></div>
     </div>

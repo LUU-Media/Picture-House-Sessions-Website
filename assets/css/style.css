@@ -128,15 +128,59 @@ h6 {
     margin-top: -1.2em;
 }
 
+.top-bar-right ul {
+    background-color: transparent;
+    margin-right: 2em;
+}
+
+.top-bar-right ul a {
+    border: 0.25em solid white;
+    padding: 0.7em 2em;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.top-bar-left ul a {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.top-bar-left ul a:hover {
+    background-color: white;
+    color: #7e1630;
+}
+
+.top-bar-right ul a:hover {
+    background-color: white;
+    color: #7e1630
+}
+
 /* Footer */
+
+.footer {
+    background-color: #7e1630;
+}
+
+.footer-credits {
+    color: #ececec;
+    text-align: center;
+    display: block;
+    margin-top: 1em;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+.footer-credits-grid {
+    padding-bottom: 1.5em;
+}
+
+/* Copyrights */
 
 .bottom-footer {
     background-color: #320000;
     text-align: center;
     color: #ececec;
-    font-size: 0.6em;
+    font-size: 0.7em;
     padding: 1.2em 0.6em;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .bottom-footer a {
