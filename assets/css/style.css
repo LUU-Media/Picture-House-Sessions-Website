@@ -204,3 +204,27 @@ body {
 .bottom-footer a {
     color: #ead3a8;
 }
+
+/* General page contents */
+.middle-content-section.page {
+    width: 60%;
+}
+
+.middle-content-section h2 {
+    background-color: #7e1630;
+    width: 100%;
+    color: #ececec;
+    padding: 0.3em;
+    margin-bottom: 0;
+}
+
+.content-box {
+    background-color: white;
+    margin-top: 0;
+    padding: 2em 1em;
+    color: #1a1a1a;
+}
+
+.content-box.error {
+    text-align: center;
+}

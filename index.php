@@ -1,3 +1,21 @@
+<?php
+    // Get page from variable
+    if(isset($_GET["page"]) && ($_GET["page"] !== "")) {
+        $page = htmlspecialchars($_GET["page"]);
+    } else {
+        $page = "home";
+    }
+
+    // Check if page exists - if not send to 404
+    if(!file_exists("./pages/$page.php")) {
+        $page = "404";
+    }
+
+    // This is nasty but makes later on easier
+    if($page == "home") {
+        $home = true;
+    }
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -15,9 +33,8 @@
 
 <body>
     <div class="hero-full-screen">
-        <video loop muted autoplay>
-            <source src="./assets/video/background.mp4" type="video/mp4">
-        </video>
+        <?php if($home) { echo"<video loop muted autoplay><source src=\"./assets/video/background.mp4\" type=\"video/mp4\"></video>";} ?>
+
         <div class="top-content-section">
             <div class="title-bar" data-responsive-toggle="nav" data-hide-for="medium">
                 <a href="./"><img src="./assets/img/logo.png" class="nav-logo left" /></a>
@@ -42,21 +59,13 @@
                 </div>
             </div>
         </div>
-
-        <div class="middle-content-section">
-            <img src="./assets/img/picture-house.png" class="hero-logo" />
-            <h1>Picture House Sessions</h1>
-            <div class="hero-subtitle">EP release: 27th April 2018</div>
-
-            <a class="button large hero-button" href="https://www.facebook.com/events/2137791199594524/">Launch Event</a>
-            <a class="button large hero-button" href="http://cpwm.awesomedistro.com/products/611162-leeds-student-radio-come-play-with-me-presents-picture-house-sessions">Buy Now</a>
-
+        <div class="middle-content-section <?php if(!$home) {echo "page"; } ?>">
+            <?php if(!$home) { echo "<h1 style='display: none;'>Picture House Sessions</h1>"; /* How to be standards compliant and still entirely miss the point in one easy step! */ } ?>
+            <?php require_once "./pages/$page.php"; ?>
         </div>
-        <div class="bottom-content-section" data-magellan data-threshold="0">
+        <div class="bottom-content-section" data-magellan data-threshold="0"></div>
 
-        </div>
     </div>
-
     <div class="footer">
         <div class="grid-container">
             <div class="grid-x grid-margin-x footer-credits-grid">
