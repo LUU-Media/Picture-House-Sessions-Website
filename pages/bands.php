@@ -14,11 +14,6 @@
 
     <hr />
 
-    <h3>Talkboy</h3>
-    <a href="https://www.facebook.com/pg/talkboyyy/">Facebook Page</a>
-
-    <hr />
-
     <h3>Jabbawoki</h3>
     <a href="https://www.facebook.com/Jabbawoki.Leeds">Facebook Page</a>
     <p>Jabbawoki are a Leeds based band that formed in 2012. The group is a four piece that draw ideas from all corners of music and consists of two guitars, Finlay Vallance and Tom Cranston - on vocals, boomin bass Bendalow, Matthew Edmunds and the undisputed king of rhythm Max Lord.</p>
