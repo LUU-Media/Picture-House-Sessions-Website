@@ -15,6 +15,9 @@
 
 <body>
     <div class="hero-full-screen">
+        <video loop muted autoplay>
+            <source src="./assets/video/background.mp4" type="video/mp4">
+        </video>
         <div class="top-content-section">
             <div class="title-bar" data-responsive-toggle="nav" data-hide-for="medium">
                 <a href="./"><img src="./assets/img/logo.png" class="nav-logo left" /></a>
@@ -29,7 +32,7 @@
                         <li><a href="./" class="nav-active">Home</a></li>
                         <li><a href="./about">About</a></li>
                         <li><a href="./schedule">Bands</a></li>
-                        <li><a href="http://cpwm.awesomedistro.com/products/611162-leeds-student-radio-come-play-with-me-presents-picture-house-sessions">Buy</a></li>
+                        <li><a href="./redeem">Redeem Code</a></li>
                     </ul>
                 </div>
                 <div class="top-bar-right">
@@ -45,7 +48,7 @@
             <h1>Picture House Sessions</h1>
             <div class="hero-subtitle">EP release: 27th April 2018</div>
 
-            <a class="button large hero-button" href="https://www.leedstickets.com/eventinfo/5524/Northern-Connection">Launch Event</a>
+            <a class="button large hero-button" href="https://www.facebook.com/events/2137791199594524/">Launch Event</a>
             <a class="button large hero-button" href="http://cpwm.awesomedistro.com/products/611162-leeds-student-radio-come-play-with-me-presents-picture-house-sessions">Buy Now</a>
 
         </div>
