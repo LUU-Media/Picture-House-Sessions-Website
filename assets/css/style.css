@@ -153,6 +153,9 @@ h6 {
     color: #7e1630
 }
 
+.top-bar .logo:hover {
+    background-color: transparent;
+}
 /* Footer */
 
 .footer {
