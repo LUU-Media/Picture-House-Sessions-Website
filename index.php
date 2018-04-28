@@ -76,7 +76,7 @@
                         <div class="cell small-3 medium-1"><a href="http://thisislsr.com"><img src="./assets/img/lsr-logo.png" class="footer-logo" alt="Leeds Student Radio" /></a></div>
                         <div class="cell small-3 medium-1"><a href="http://www.hydeparkpicturehouse.co.uk"><img src="./assets/img/hpph-logo.png" class="footer-logo" alt="Hyde Park Picture House" /></a></div>
                         <div class="cell small-3 medium-1"><a href="http://cpwm.co"><img src="./assets/img/cpwm-logo.png" class="footer-logo" alt="Come Play With Me" /></a></div>
-                        <div class="cell small-3 medium-1"><a href="http://thisislsr.com"><img src="./assets/img/soundsessions-logo.png"" class="footer-logo" alt="LSR Sound Sessions" /></a></div>
+                        <div class="cell small-3 medium-1"><a href="https://www.facebook.com/LSRSoundSessions/"><img src="./assets/img/soundsessions-logo.png"" class="footer-logo" alt="LSR Sound Sessions" /></a></div>
                         <div class="auto cell"></div>
                     </div>
                 </div>
