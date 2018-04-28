@@ -1,0 +1,4 @@
+# Rewrite --- http://example.com/?page=test => http://example.com/test
+
+RewriteCond %{QUERY_STRING} (^|&)page=test($|&)
+RewriteRule ^$ /test?&%{QUERY_STRING}

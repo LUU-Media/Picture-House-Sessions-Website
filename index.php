@@ -47,9 +47,9 @@
                     <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
                         <li class="menu-text show-for-medium"><a href="./" class="logo"><img src="./assets/img/picture-house.png" alt="Picture House Sessions" /></a></li>
                         <li><a href="./" class="nav-active">Home</a></li>
-                        <li><a href="./about">About</a></li>
-                        <li><a href="./schedule">Bands</a></li>
-                        <li><a href="./redeem">Redeem Code</a></li>
+                        <li><a href="./?page=about">About</a></li>
+                        <li><a href="./?page=bands">Bands</a></li>
+                        <li><a href="./?page=redeem">Redeem Code</a></li>
                     </ul>
                 </div>
                 <div class="top-bar-right">
