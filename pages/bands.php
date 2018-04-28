@@ -25,6 +25,8 @@
     <p>Through playing together for four years Jabbawoki have developed a unique sound which encompass' elements of rap, indie and jazz</p>
     <p>'Jabbawoki are a lovechild of Ratboy and Arctic Monkeys, with funk undertones.' - Sounds of an Eccentric</p>
 
+    <hr />
+
     <h3>The Seagulls</h3>
     <a href="https://www.facebook.com/pg/theseagulls">Facebook Page</a>
     <p>Modern pop troupe from Leeds possessing a sixties sound and British rock 'n' roll vibe. With their interesting vocal patterns, instantly recognisable guitar sound and lyrics touching on the weird, dark and altogether unusual, you won't be able to get these out of your head. Labelled by fans as modern day 'tropical rock'.</p>
