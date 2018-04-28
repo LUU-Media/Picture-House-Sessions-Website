@@ -175,6 +175,17 @@ body {
 .top-bar .logo:hover {
     background-color: transparent;
 }
+
+/* Title-bar = mobile navbar = foundation is weird */
+.title-bar {
+    background-color: #7e1630;
+}
+
+.title-bar img { /* logo */
+    margin-left: 1em;
+    height: 3em;
+    margin-bottom: -.5rem;
+}
 /* Footer */
 
 .footer {

@@ -37,7 +37,7 @@
 
         <div class="top-content-section">
             <div class="title-bar" data-responsive-toggle="nav" data-hide-for="medium">
-                <a href="./"><img src="./assets/img/logo.png" class="nav-logo left" /></a>
+                <a href="./"><img src="./assets/img/picture-house.png" class="nav-logo left" /></a>
                 <div class="title-bar-right">
                     <button class="menu-icon" type="button" data-toggle></button>
                 </div>
