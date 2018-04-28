@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Cubano Sharp";
+    src: url("../font/cubano-sharp-webfont.ttf");
+}
 /* Overwrite defaults */
 
 p,
