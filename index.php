@@ -84,7 +84,7 @@
         </div>
     </div>
     <div class="bottom-footer">
-        <div class="bottom-footer-copyright">&copy; Picture House Sessions 2018<br />Website made with <span style="color:#ff005a">❤</span> by <a href="http://jackbiggin.me">Jack Biggin</a></div>
+        <div class="bottom-footer-copyright">&copy; Leeds Student Radio 2018<br />Website made with <span style="color:#ff005a">❤</span> by <a href="http://jackbiggin.me">Jack Biggin</a></div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

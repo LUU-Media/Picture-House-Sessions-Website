@@ -223,8 +223,13 @@ body {
     margin-top: 0;
     padding: 2em 1em;
     color: #1a1a1a;
+    text-align: left;
 }
 
 .content-box.error {
     text-align: center;
+}
+
+.content-box a {
+    color: #7e1630;
 }
